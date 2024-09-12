@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/8aaa9fc818.js" crossorigin="anonymous"></script>
+    <!-- eb-garamond-<uniquifier> font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <!-- poppins  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- daisy UI and tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'primary-color': '#B68C5A',
+          }
+        }
+      }
+    }
+  </script>
+
+<style>
+    .eb-garamond {
+  font-family: "EB Garamond", serif;
+  
+}
+    .poppins-thin {
+  font-family: "Poppins", system-ui;
+ 
+}
+</style>
+</head>
+<body class="poppins-font">
+    <header class="container mx-auto">
+        <!-- navbar start -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow poppins-thin">
+                  <li><a>Home</a></li>
+                  
+                  <li><a>Services<i class="fa-solid fa-greater-than"></i></a></li>
+                  <li><a>Case<i class="fa-solid fa-greater-than"></i></a></li>
+                  <li><a>Blog<i class="fa-solid fa-greater-than"></i></a></li>
+                  <li><a>Contact Us<i class="fa-solid fa-greater-than"></i></a></li>
+                </ul>
+              </div>
+             <div class="flex justify-center items-center gap-5">
+              <div class="w-11"><img src="./images/business.png" alt=""></div>
+              <h2 class="text-4xl font-extrabold eb-garamond ">Justice</h2>
+             </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal  px-1 poppins-thin text-base font-light">
+                <li><a>Home</a></li>
+                  
+                  <li><a>Services<i class="fa-solid fa-greater-than"></i></a></li>
+                  <li><a>Case<i class="fa-solid fa-greater-than"></i></a></li>
+                  <li><a>Blog<i class="fa-solid fa-greater-than"></i></a></li>
+                  <li><a>Contact Us<i class="fa-solid fa-greater-than"></i></a></li>
+              </ul>
+            </div>
+            <div class="navbar-end hidden lg:flex">
+              <a class="btn bg-primary-color text-white text-base font-semibold">Free Consultation</a>
+            </div>
+          </div>
+          <!-- banner start -->
+           <div>
+            <div class="carousel  lg:w-full ">
+                <div id="slide1" class="carousel-item relative w-full bg-[linear-gradient(180deg,rgba(0,0,0,0.9),rgba(0,0,0,0.1)),url(./images/banner.png)] max-h-fit bg-center bg-cover rounded-lg flex flex-col justify-center items-center text-center space-y-3  lg:py-28  py-5  text-white">
+                  <h3 class="eb-garamond text-xl lg:text-7xl font-extrabold">We Provide Effective <br>Legal Solutions</h3>
+                  <p class="text-base font-normal w-2/3 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quas mollitia enim suscipit, alias, in aperiam a tempora id aliquid architecto iusto recusandae voluptatum dolorem!</p>
+                <div class="flex flex-col lg:flex-row text-black justify-between items-center mx-auto gap-4 ">
+                    
+                    <div class="w-full lg:flex-1 ">
+                        <input  type="text"
+                    placeholder="Search your services"
+                        class="input   pl-2 pr-20 lg:pr-36 " />
+                    </div>
+                    <div class="navbar-end ">
+                        <a class="btn bg-primary-color text-white text-base font-semibold">Search</a>
+                      </div>
+                </div>
+                
+                
+                
+                </div>
+                
+                
+                
+              </div>
+           </div>
+    </header>
+    <body>
+        
+    </body>
+    <footer></footer>
+</body>
+</html>
